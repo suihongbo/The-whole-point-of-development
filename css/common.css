@@ -1,5 +1,5 @@
 body{
-    height: 10000px;
+    height: 3000px;
 }
 *{
     margin: 0;
@@ -78,7 +78,7 @@ a{
     position: absolute;
     right: 0px;
     top: 46px;
-    background: url("../images/btn.png") 0 0 no-repeat;
+    background: url("../images/btn.png") 0 2px no-repeat;
     cursor: pointer;
 }
 
@@ -119,9 +119,11 @@ a{
 
 }
 #small-box{
+    width: 1002px;
     height: 492px;
-    margin: 0 140px;
+    margin: 0 auto;
 }
+
 .item{
     float: left;
     padding-top: 86px;
@@ -173,7 +175,7 @@ a{
     background: #e2e7ed;
 }
 .title-big{
-    width: 1160px;
+    width: 1000px;
     height: 40px;
     padding-top:30px;
     margin: 0 auto;
@@ -181,7 +183,7 @@ a{
     font-size: 30px;
 }
 #show{
-    width: 1160px;
+    width: 1000px;
     height: 430px;
     margin: 0 auto;
 }
@@ -216,7 +218,7 @@ a{
 }
 /* footer 开始 */
 #footer{
-    width: 1160px;
+    width: 1000px;
     height: 154px;
     margin: 0 auto;
 }
@@ -245,10 +247,9 @@ a{
 .produce{
     width: 230px;
     height: 84px;
-    background: #f00;
     float: left;
 }
-.qq-one{
+/*.qq-one{
     background: url("../images/1.png") 0 -177px no-repeat;
 }
 .qq-two{
@@ -259,7 +260,7 @@ a{
 }
 .qq-fore{
     background: url("../images/1.png") -524px -177px no-repeat;
-}
+}*/
 .procuces{
     height: 84px;
     width: 920px;
